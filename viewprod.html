@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styleview.css">
+  <title> Login </title>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      <div class="login">
+        <div class="login-header">
+          <h3>VIEW PRODUCT INFORMATION</h3>
+        </div>
+      </div>
+      <form class="login-form">
+        <div class="col" style="border-style: solid; border-color:rgba( 255, 255, 255, 0.10 )">
+          <input type="text" placeholder="product id" id="pid"/>
+          <button id="getid" style="margin-right:24px">Search</button>
+          <button id="getqr" style="margin-left:24px">Scan QR</button>
+        </div>
+        <label>Product Name :</label>
+        <input type="text" id='pname'>
+        <label>Producer Name :</label>
+        <input type="text" id='prodname'>
+        <label>Producer Location :</label>
+        <input type="text" id='prodloc'>
+        <label>Manufacturing Description</label>
+        <textarea name="des" rows="4" cols="30" id="manu"></textarea><br>
+        <label>Product Description :</label>
+        <textarea name="des" rows="5" cols="34" id="desc"></textarea><br>
+        <button onclick="location.href='index.html'" type="button">HOME</button>
+      </form>
+    </div>
+    <br><br><br><br><br><br><br>
+  </div>
+  <script src="web3.min.js"></script>
+  <!-- <script src="producer.js"></script> -->
+  <script src="viewprod.js"></script>
+</body>
+
+</html>

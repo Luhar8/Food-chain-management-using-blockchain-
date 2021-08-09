@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="stylemandis.css">
+  <title> Manufacturer (or) Distributor </title>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      <div class="login">
+        <div class="login-header">
+          <h3>MANUFACTURER (or) DISTRIBUTOR DETAILS</h3>
+          <p>Please enter your details.</p>
+        </div>
+      </div>
+      <form class="login-form">
+        <label for="html">Enter Designation :</label>
+        <select class="designation" id="desg" name="designation">
+          <option>Select...</option>
+          <option value="Manufacturer" id="Manufacturer">Manufacturer</option>
+          <option value="Distributor" id="Distributor">Distributor</option>
+        </select><br>
+        <label for="html">Product ID :</label>
+        <input type="text" placeholder="Product Name" id="product_id"/><br>
+        <label for="html">Company Name :</label>
+        <input type="text" placeholder="Company Name" id="company_name" /><br>
+        <label>Date :</label>
+  			<input type="Date" name="date" id="date"><br/>
+        <label for="html">Location :</label>
+        <input type="text" placeholder="Location" id="location" /><br>
+        <label for="html">Description :</label>
+        <textarea name="des" rows="5" cols="34" placeholder="Enter Description" id="description"></textarea><br>
+        <button id="dist">SUBMIT</button><br><br>
+        <button onclick="location.href='index.html'" type="button">Home</button>
+      </form>
+    </div>
+  </div>
+  <script src="web3.min.js"></script>
+  <script src="mandis.js"></script>
+  
+</body>
+
+</html>
